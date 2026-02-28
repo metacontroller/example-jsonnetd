@@ -1,4 +1,4 @@
-FROM golang:1.15.7 AS build
+FROM golang:1.26-alpine AS build
 
 COPY . /go/src/example-jsonnetd/
 WORKDIR /go/src/example-jsonnetd/
